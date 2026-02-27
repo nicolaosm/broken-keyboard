@@ -36,6 +36,7 @@ function ModalScreen() {
   return (
     <KeyboardAwareScrollView
       style={styles.modalScroll}
+      extraKeyboardSpace={30}
       contentContainerStyle={styles.modalContent}
       keyboardShouldPersistTaps="handled"
       keyboardDismissMode="interactive"
